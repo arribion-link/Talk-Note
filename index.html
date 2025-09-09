@@ -5,36 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TalkNotes</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3e1a4784df.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
         <p class="logo">Talk-Note</p>
         <nav>
             <ul>
-                <li><a href="#">Try It</a></li>
-                <li><a href="#">How it Works</a></li>
-                <li><a href="#">Use Cases</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">FAQ's</a></li>
+                <a href="#"><li>Try It</li></a></li>
+                <a href="#"><li>How it Works</li></a>
+                <a href="#"><li>Use Cases</li></a>
+                <a href="#"><li>Pricing</li></a>
+                <a href="#"><li>FAQ's</li></a>
             </ul>
         </nav>
-        <button>Get Talk-Notes Plus</button>
+        <div>
+            <button>Get Talk-Notes Plus</button>
+            <i class="fa-solid fa-bars-staggered"></i>
+        </div>
     </header>
 
     <main>
-        <section>
-            <div>
+        <section class="hero-section">
+            <div class="hero-text-container">
                 <div>
                     <div>
 
                     </div>
-                    <div>
+                    <div class="show-award">
                         <small>PRODUCT HUNT</small>
                         <h3># 1 Product of the Day</h3>
                     </div>
                 </div>
 
-                <h1>Turn messy thoughts <br> into <span>actionable</span> notes. <br>Fast.</h1>
+                <h1>Turn messy thoughts <br class="mobile-hero-title-break"> into <span>actionable</span> notes. <br>Fast.</h1>
                 <h2>The #1 AI. voice note-taking app</h2>
                 <p>Turn hours of note taking into minutes. just speak, and let AI transcribe, clean up and structure your voice</p>
                 <button>Get TalkNotes + </button>
@@ -42,15 +47,15 @@
                 <p>Trusted by +1400 happy users </p>
             </div>
             <div>
-                <div>
+                <div class="demo-card">
                     <p>Try the Demo here. Just press record and speak your mind.</p>
-                    <div>
+                    <div class="demo-card-control-section">
                         <h1>01:00</h1>
-                        <div>
-                            <button></button>
-                            <button></button>
-                            <button></button>
-                            <button></button>
+                        <div class="demo-btns">
+                            <button  class="demo-reply-btn"><i class="fa-solid fa-reply fa-2x"></i></button>
+                            <button class="demo-mic-btn"><i class="fa-solid fa-microphone fa-2x"></i></button>
+                            <button class="demo-x-btn"><i class="fa-solid fa-xmark fa-2x"></i></button>
+                            <button class="demo-btn-play"><i class="fa-solid fa-play fa-2x"></i></button>
                         </div>
                         <span></span>
                     </div>
@@ -64,7 +69,7 @@
         </section>
 
 
-        <section>
+        <section class="how-it-works-section">
             <h1>How does it work?</h1>
             <div>
                 <div>
