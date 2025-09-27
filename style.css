@@ -145,6 +145,95 @@ header nav ul a li:hover{
 
 }
 
+.how-it-works-video-prev{
+    max-width: 50em;
+}
+
 h2{
     color: var(--primary-color);
 }
+
+
+
+
+
+/* USE CASE SECTION */
+
+.use-cases-section{
+    margin-top: 3em;
+}
+
+.use-case-container{
+    margin-top: 3em;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.use-case-card{
+    padding: 1em;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: rgb(165, 165, 165);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* TESTIMONIAL SECTION */
+
+.testimonial-container{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.testimonial-card{
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 10px;
+    padding: 1em;
+}
+
+
+details{
+    border: 1px solid red;
+    padding: 1.3em;
+    margin: 2em;
+}
+
+summary{
+    /* margin-top: 1em; */
+    /* font-size: 1.5px; */
+    color: var(--primary-color);
+}
+
+
+
+footer{
+    background-color: var(--secondary-color);
+    padding: 1em;
+}
+
+@media(min-width:678px){
+    .hero-section{
+        display: flex;
+        gap: 3em;
+    }
+
+    .how-it-works-card{
+        display: flex;
+        gap: 2em;
+    }
+    #how-it-works-card-2{
+        flex-direction: row-reverse;
+    }
+}
+
+
